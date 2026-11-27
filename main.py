@@ -17,4 +17,4 @@ out_dir.mkdir(parents=True, exist_ok=True)
 with open(out_dir / "entry.txt", "w", encoding="utf-8") as handle:
     handle.write(apology)
 
-print("apology delivered,", len(apology), "chars")
+print("apology delivered,", len(apology), "chars, gate 1..", LIMIT_CHARS)
